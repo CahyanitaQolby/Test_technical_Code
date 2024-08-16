@@ -1,0 +1,15 @@
+import math
+
+def main():
+  count = 3
+
+  while true:
+    isprime = true
+
+    for x in range (2, int(math, sqrt(count) +1)):
+      if count % x == 0:
+        isprime = false
+        break
+      if isprime:
+        print count
+count +=1
