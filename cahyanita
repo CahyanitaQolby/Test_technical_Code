@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=width=device-width, intial-scale=1.0">
+<title>Validasi Angka</title>
+</head>
+<body>
+  <h1>Validasi Angka</h1>
+  <form action="proses.php">
+    <div>
+      <label>Input angka</label> <br>
+      <input type="text" name="Input Angka" placeholder="Masukan Angka">
+</div>
+<div style="margin-top: 0.5rem">
+	<button>Generate Segitiga</button>
+	<button>Generate Bilangan Ganjil</button>
+	<button>Generate Bilangan Prima</buttin>
+</div>
+</form>
+</body>
+</html>
